@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="fr"> 
+    <link rel="icon" href=
+    "https://cdn-icons-png.flaticon.com/512/633/633832.png" type="image/x-icon">
+	<head> 
+
+		<meta charset="utf-8">
+		<title>Stream-Flix</title>
+	</head> 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+        body{
+            font-family: 'Poppins', sans-serif;
+            background-image: url("https://img.freepik.com/photos-gratuite/fond-gris-peint_53876-94041.jpg?w=2000");
+            background-attachment: fixed;
+        }
+        
+        
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: transparent;
+        }
+        li{
+            float: left;
+        }
+        li a{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover{
+            background-color: red;
+            border-radius: 10px;
+        }
+    </style>
+	<body> 
+        <div class="container">
+            <ul>
+                <li><a class="active" href="../index.html">Home</a></li>
+                <li><a  href="Films.html">Films</a></li>
+                <li><a  href="Anime VF.html">Anime VF</a></li>
+                <li><a  href="AimeVOSTFR.html">Anime VOSTFR</a></li>
+            </ul>
+        <div class="tab-content" style="height: 599px">
+            <div>
+            <script type="text/javascript" src="/templates/Animix/js/anime.js"></script>
+            <script type="text/javascript" src="/templates/Animix/js/jquery.formstyler.min.js"></script>
+            <script type="text/javascript" src="/templates/Animix/js/jquery.cookie.js"></script>
+            <div class="new_player_box" data-newsid="275"></div>
+            <div class="new_player_top">
+            <div class="new_player_selector_box"><div class="new_player_prev"></div>
+            <p align="center"><select class="new_player_selector"></p>
+            <option value="buttons_1">Episode 01</option>
+            <option value="buttons_2">Episode 02</option>
+            </select>
+            <p align="center"><a href="Blue lock 1.html" target="_parent"><button>Précédent</button></a><a href="Blue lock 2.html" target="_parent"><button>Suivant</button></a></p>
+            </div>
+            <p align="center"><iframe width="640" height="384" src="https://video.sibnet.ru/shell.php?videoid=4919386" frameborder="0" scrolling="no" allowfullscreen=""></iframe>
